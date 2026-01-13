@@ -204,24 +204,24 @@ Příklad finální konfigurace (výsledek na pásce OUT):
 [step=003409] state=ACCEPT_D
 
 IN:  #######111#11#10#######
-          ↓ (head=11)
+          ↑ (head=11)
 
 ACC: #######L###############
-          ↓ (head=1)
+          ↑ (head=1)
 
 FAC: #######L###############
-          ↓ (head=0)
+          ↑ (head=0)
 
 SCR: #######L###############
-          ↓ (head=7)
+          ↑ (head=7)
 
 OUT: #######101010#########
-          ↓ (head=1)
+          ↑ (head=1)
 ```
 
 Interpretace:
 
-- šipka `↓` označuje pozici hlavy,
+- šipka `↑` označuje pozici hlavy,
 - `(head=k)` je číselná pozice hlavy na dané pásce,
 - výsledek je čitelný na pásce OUT (MSB first).
 
